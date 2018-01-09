@@ -8,11 +8,11 @@
         <div class="section-header">
           <div class="row">
             <div class="column large-6">
-              <h2 class="section-title filters-title">Featured Properties</h2>
+              <h2 class="section-title filters-title">Featured Property</h2>
             </div>
             <div class="column large-6">
               <!-- filters-location mixin begin-->
-              <!--
+              
               <form class="filters-form filters-form-location">
                 <div class="row">
                   <div class="column xlarge-5 large-5 medium-6">
@@ -26,7 +26,7 @@
                   </div>
                 </div>
               </form>
-              -->
+             
               <!-- filters-location mixin end-->
             </div>
           </div>
