@@ -45,7 +45,9 @@
 		$property_data = $propertyController->propertyFinancialData($featured_property[0]);
 		
 		
-		?>
+    ?>
+
+        <!-- mixin most-feature begin -->
         <div class="row">
           <div class="column">
             <div class="section">
@@ -204,6 +206,7 @@
             </div>
           </div>
         </div>
+        <!-- mixin most-feature end -->
 		<? } ?>
       </div>
       <!-- mixin property-items-previews begin-->
