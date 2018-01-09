@@ -1,0 +1,6 @@
+Gulp and plugins instalation
+0. Install Node.js.
+1. Run command line (CMD). Win+R > type 'CMD' > press Enter.
+2. In CMD navigate to '_gulp/' folder  > 'cd some_folder_path/'.
+3. Type 'npm install'.
+4. To start gulp type 'gulp'.
