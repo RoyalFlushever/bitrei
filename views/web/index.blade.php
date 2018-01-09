@@ -229,11 +229,11 @@
           </div>
         </div>
         <!-- mixin load-more begin-->
-        <!--<div class="row">
+        <div class="row">
           <div class="column medium-4 medium-centered">
             <div class="load-more section"><a class="button hollow secondary xregular expanded" href="#">Load More</a></div>
           </div>
-        </div>-->
+        </div>
         <!-- mixin load-more end-->
       </div>
       <!-- mixn property-items-previews end-->
