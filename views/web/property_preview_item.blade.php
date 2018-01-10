@@ -124,7 +124,7 @@
                           </div>
                           <!-- property-item-characteristics-row mixin end-->
                            <!-- property-item-characteristics-row mixin begin-->
-                          <div class="property-item-characteristics-row">
+                          <!-- <div class="property-item-characteristics-row">
                             <div class="row">
                               <div class="column small-6">
                                 <div class="property-item-characteristics-label">Growth Forecast <a  href="javascript:void(0);" data-tooltips="Insert data here">?</a></div>
@@ -133,7 +133,7 @@
                                 <h3 class="smaller property-item-characteristics-value text-blue"><? echo number_format((float)$property_data['property_item']->_forecast_growth_rate_1year, 2, '.', ''); ?>%</h3>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                           <!-- property-item-characteristics-row mixin end-->
                         </div>
                         <!-- mixin property-item-characteristics end-->

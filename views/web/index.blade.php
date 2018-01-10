@@ -221,7 +221,7 @@
         <div class="row">
           <div class="column xlarge-12 large-10 xmedium-12 medium-8 medium-centered">
             <div class="row">
-			
+			@include('web.property_rented')
 			<?
 			
 			$data = \DB::table('_property_details')
