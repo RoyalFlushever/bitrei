@@ -1,38 +1,21 @@
 <div class="columns xlarge-4 large-6 xmedium-6">
                   <!-- mixin property-item-preview begin-->
-                  <div class="property-item box-white" data-equalizer-watch="data-equalizer-watch">
-                    <!-- mixin property-item-header-small begin-->
-                    <div class="property-item-header">
-                      <div class="property-item-container">
-                        <div class="property-item-price">
-                          <h2 class="property-item-price-main">$200,000</h2>
-                          <!-- property-item-price-rent mixin begin-->
-                          <div class="property-item-price-rent">
-                            <div class="property-item-price-rent-label">Current Rent</div>
-                            <h3 class="property-item-price-rent-value smaller">$1,234</h3>
-                          </div>
-                          <!-- property-item-price-rent mixin end-->
-                        </div>
-                        <!-- property-item-address mixin begin-->
-                        <address class="property-item-address"><img class="property-item-address-icon" src="/member/img/template/location.png" alt="" width="11"/>7143, North Street, Fond Du Lac, WI 54935</address>
-                        <!-- property-item-address mixin end-->
-                      </div>
-                    </div>
-                    <!-- mixin property-item-header-small end-->
+                  <div class="property-item-rented box-white" data-equalizer-watch="data-equalizer-watch">
                     <div class="property-item-img-container"><img class="property-item-img" src="/upload_files/rent.png" alt=""/>
-                      <div class="property-item-img-content">
+                    <div class="property-item-img-content">
                         <!-- mixin favorite-heart begin-->
                         <!-- use class .favorite-heart.is-active for active state-->
                         <div class="favorite-heart favorite-item" data-toggler-itself="is-active" data-property-id="1" data-fav="0"><img class="favorite-heart-icon-normal" src="/member/img/template/heart-white-outline.png" alt=""/><img class="favorite-heart-icon-active" src="/member/img/template/heart-white.png" alt=""/></div>
                         <!-- mixin favorite-heart end-->
                         <div class="property-item-img-footer">
-                          <div class="property-item-img-footer-rooms column small-6">
-                            <p>3 Bds</p>
-                            <p>2 Baths</p>
-                          </div>
-                          <div class="property-item-img-footer-foots column small-6">
-                            <p>1234 sq ft</p>
-                            <p>Built in 1970</p>
+                          <div class="property-item-img-footer-rooms column">
+                              <h2 class="property-item-rented-price-main">$200,000</h2>
+                              <ul>
+                                <li class="property-item-rented-value">3 Bds, 2 Baths</li>
+                                <li class="property-item-rented-value">1234 sq ft</li>
+                                <li class="property-item-rented-value">Built in 1970</li>
+                              </ul>
+                              <address class="property-item-rented-address"><img class="property-item-rented-address-icon" src="/member/img/template/location.png" alt="" width="11"/>7143, North Street, Fond Du Lac, WI 54935</address>
                           </div>
                         </div>
                       </div>
@@ -47,16 +30,16 @@
                               <div class="column small-6">
                                 <!-- progress-value mixin begin-->
                                 <div class="progress-value-container">
-                                    <h4 class="progress-value text-blue">$1,234</h4>
                                     <p class="progress-value-caption">Current Rent</p>
+                                    <h4 class="progress-value text-blue">$1,234</h4>
                                 </div>
                                 <!-- progress-value mixin end-->
                               </div>
                               <div class="column small-6">
                                <!-- progress-value mixin begin-->
                                 <div class="progress-value-container">
-                                    <h4 class="progress-value text-blue">8.24%</h4>
                                     <p class="progress-value-caption">Current Cap Rate</p>
+                                    <h4 class="progress-value text-blue">8.24%</h4>
                                 </div>
                                 <!-- progress-value mixin end-->
                               </div>
@@ -69,16 +52,16 @@
                               <div class="column small-6">
                                 <!-- progress-value mixin begin-->
                                 <div class="progress-value-container">
-                                    <h4 class="progress-value text-blue">12,234</h4>
                                     <p class="progress-value-caption">Cash Return per Bit</p>
+                                    <h4 class="progress-value text-blue">12,234</h4>
                                 </div>
                                 <!-- progress-value mixin end-->
                               </div>
                               <div class="column small-6">
                                 <!-- progress-value mixin begin-->
                                 <div class="progress-value-container">
-                                    <h4 class="progress-value text-blue">11.24%</h4>
                                     <p class="progress-value-caption">Expected Annual ROI</p>
+                                    <h4 class="progress-value text-blue">11.24%</h4>
                                 </div>
                                 <!-- progress-value mixin end-->
                               </div>
@@ -95,8 +78,8 @@
                           <div class="progress-values">
                             <!-- progress-value mixin begin-->
                             <div class="progress-value-container">
-                                <p class="progress-value-caption">Price Per Bit</p>  
-                                <h4 class="progress-value text-blue">$20,000</h4>
+                                <p class="progress-value-caption">Price Per Bit</p>
+                                <h4 class="progress-value text-blue">$2,000</h4>
                             </div>
                             <!-- progress-value mixin end-->
                             <!-- progress-value mixin begin-->
@@ -116,4 +99,3 @@
                   </div>
                   <!-- mixin property-item-preview end-->
                 </div>
-				

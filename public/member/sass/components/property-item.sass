@@ -4,8 +4,8 @@
 /*property-item*/
 
 .property-item
-	padding-top: 30px
-	margin-bottom: 50px
+	padding-top: 0px
+	margin-bottom: 0px
 	padding-bottom: 20px
 	&-header
 		font-weight: 400
@@ -178,6 +178,34 @@
 			&-active
 				opacity: 1
 
+.property-item-rented
+	padding-top: 0px
+	&-value
+		  display: inline
+		  padding-right: 5px
+		  border-right: solid 1px black
+		  &:last-child
+		    border: none
+	&-address
+		position: relative
+		padding-left: 20px
+		font-style: normal
+		background-color: $primary-blue
+		&-icon
+			position: absolute
+			top: 5px
+			left: 0
+			z-index: 1
+	&-price
+		margin-bottom: 12px
+		+cl
+		+nw
+		&-main
+			position: relative
+			+md
+			margin-bottom: 0
+			padding-right: 23px
+			color: white
 
 .property-item-expanded
 	margin-left: 30px
@@ -287,17 +315,17 @@
 		width: auto
 
 
-@media (max-width: 1000px) 
+@media (max-width: 1000px)
 
 	.inputs-inline input
 		width: 115px
 		font-size: 14px
 		padding-left: 10px
 		padding-right: 10px
-	
 
 
-@media (max-width: 767px) 
+
+@media (max-width: 767px)
 	.inputs-inline span
 		width: 30%
 		padding-right: 10px
@@ -316,7 +344,7 @@
 		width: 100%
 	.wrap-inputs-inline .button
 		width: 100%
-	
+
 
 
 
@@ -325,14 +353,14 @@
 
 
 +max1199
-	
+
 	.property-item
 		&-price
 			&-main
 				padding-right: 13px
 			&-rent
 				padding-left: 13px
-		
+
 		&-expanded
 			&-caption
 				padding-top: 30px
@@ -342,7 +370,7 @@
 
 
 +max1023
-	
+
 	.property-item
 		&-expanded
 			&-caption
@@ -365,12 +393,12 @@
 	.slider-column-translated-content,
 	.property-item-expanded-caption
 		margin-right: 30px
-	
+
 	.progress
 		&-values
 		&-value
 			&-container
-	
+
 	.property-watch
 		.button
 			margin-bottom: 4px
@@ -446,23 +474,3 @@
 		&-container
 			margin-bottom: -15px
 			+rb(7)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
