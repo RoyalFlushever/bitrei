@@ -38,12 +38,19 @@
 			->where("is_featured","=",1)
 			->take(1)
 			->get();
-			
-		if(count($featured_property)>0){
+    
+      $data = \DB::table('_property_details')
+				->where("is_homepage","=",1)
+				->orderBy("sort", "ASC")
+				->take(1)
+        ->get();
+		if(count($data)>0){
 		
 		$propertyController = new App\Http\Controllers\Property\PropertyController();
-		$property_data = $propertyController->propertyFinancialData($featured_property[0]);
-		
+		// $property_data = $propertyController->propertyFinancialData($featured_property[0]);
+    
+  
+    $property_data = $propertyController->propertyFinancialData($data[0]);
 		
     ?>
 
